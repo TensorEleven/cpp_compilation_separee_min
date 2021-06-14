@@ -4,5 +4,5 @@
 using namespace std;
 
 void Person::salute(){
-    cout << "Bonjour" << endl;
+    cout << "Bonjour !" << endl;
 }
