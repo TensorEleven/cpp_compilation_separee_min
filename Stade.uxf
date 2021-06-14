@@ -1,0 +1,35 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>310</x><y>70</y><w>180</w><h>130</h></coordinates><panel_attributes>class: Person
+--
+string name;
+
+--
+string getName ();
+void setName ();
+
+void salute( );
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>240</y><w>180</w><h>170</h></coordinates><panel_attributes>class: Gardien
+--
+Place* workplace;
+
+--
+Place getWorkPlace( );
+void setWorkPlace( );
+
+void openWorkPlace( );
+void closeWorkPlace( );</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>190</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>200</y><w>130</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;110;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>210</y><w>210</w><h>190</h></coordinates><panel_attributes>class: Place
+--
+bool open; 
+int capacity; 
+string name;
+
+--
+bool getState ();
+int  getCapacity ();
+string getName ();
+
+void  setState (bool newState);
+void setCapacity (int newCapacity);
+void setName (string newName);
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
